@@ -1,0 +1,179 @@
+/* Full page */
+.about-page {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height: 100vh;
+    padding-top: 4vw;
+}
+
+
+/* Left container */
+.left-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* about section */
+.about-section {
+    width: 50vw;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 10px;    
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+/* about section > heading */
+.about-heading {
+    font-size: 6vw;
+    color: white;
+}
+
+/* about section > h6 text */
+
+.about-section > h6 {
+    line-height: 2vw;
+}
+
+.about-section > h6 > span {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+}
+
+.about-section > h5 > span {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+.portfolio-link {
+    color: var(--primary-color);
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    border: 2px solid var(--primary-color);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.portfolio-link:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 5px 0px grey;
+}
+
+.portfolio-link:hover > svg > path {
+    fill: white;
+}
+
+
+/* Right container */
+
+.right-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2vw;
+    width: 40vw;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 10vw;
+    gap: 1vw;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    animation: borderRadius 3s;
+}
+
+
+.skill-box > img {
+    width: 70px;
+    height: 70px;
+}
+
+.skill-box:hover {
+    box-shadow: 1px 1px 5px 0px rgb(196, 196, 196);
+    z-index: 1;
+}
+
+.skill-box > h5 {
+    visibility: visible;
+    opacity: 1;
+    animation: fadeIn 3s;
+}
+
+.skill-box > h3 {
+    visibility: visible;
+    opacity: 1;
+    animation: fadeIn 3s;
+}
+
+.react-box {
+    background: linear-gradient(rgb(34, 34, 251), rgb(124, 34, 251));
+    color: white;
+}
+
+
+.nodejs-box {
+    background: linear-gradient(rgb(229, 255, 0), rgb(195, 255, 0));
+}
+
+.figma-box {
+    background: linear-gradient( rgb(251, 34, 34), rgb(208, 0, 255), rgb(11, 205, 235), rgb(0, 255, 0));
+    color: white;
+}
+
+.css-box {
+    background: linear-gradient(rgb(60, 139, 250), rgb(0, 255, 247));
+
+}
+
+.mongodb-box {
+    background: linear-gradient(rgb(3, 254, 7), rgb(245, 255, 247));
+
+}
+
+.illustrator-box {
+    background: linear-gradient(rgb(255, 136, 0), rgb(255, 226, 196));
+}
+
+.photoshop-box {
+    background: linear-gradient(rgb(94, 164, 255),rgb(29, 117, 217));
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        visibility: collapse;
+    } 
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+@keyframes borderRadius {
+    from {
+        border-radius: 0px;
+    }
+    to {
+        border-radius: 15px;
+    }
+}

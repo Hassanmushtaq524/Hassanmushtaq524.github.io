@@ -1,0 +1,43 @@
+#home {
+    width: 100vw;
+    height: 100vh;
+}
+.my-img {
+    position: absolute;
+    object-fit: cover;
+    height: 60vw;
+    bottom: 0px;
+    /* border: 2px solid red; */
+}
+
+.right-text {
+    text-align: right;
+    margin-top: 8vw;
+    margin-right: 40px;
+    /* border: 2px solid red; */
+}
+
+.heading {
+    margin-top: 40px;
+    font-size: 10vw;
+    color: var(--primary-color);
+    line-height: 0.9;
+}
+
+.tag {
+    font-size: 4.6vw;
+    color: var(--primary-color);
+    display: block;
+}
+
+.btn-contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-contact:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}

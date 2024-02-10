@@ -1,0 +1,99 @@
+#work {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    padding: 1vw;
+    padding-top: 5vw;
+    overflow-y: scroll;
+}   
+
+#work > a {
+    text-decoration: none;
+}
+
+/* scrollbar */
+#work {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+#work::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.box {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 5px 0px rgb(196, 196, 196);
+}
+
+.text-box {
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all 1s ease;
+}
+
+.box:hover > .text-box {
+    height: 100%;
+}
+
+
+.box > .text-box > p {
+    opacity: 0;
+    visibility: collapse;
+    transition: all 1s;
+}
+
+.box:hover > .text-box > p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0;
+    background-color: white;
+    transition: all 0.5s;
+    margin: 20px;
+}
+
+.box:hover > .arrow-wrapper {
+    opacity: 1;
+}
+
+.virtual-museum {
+    background-image: url("../../assets/images/virtualMuseum.png");
+}
+
+.animeforum {
+    background-image: url("../../assets/images/animeForum.png");
+}
+
+.DPS {
+    background-image: url("../../assets/images/Dribbble\ shot\ HD\ -\ 1.jpg");
+}
+
+.trafficModeling {
+    background-image: url("../../assets/images/poster-01.jpg");
+}
