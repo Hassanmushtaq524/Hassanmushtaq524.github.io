@@ -18,7 +18,8 @@ const Work = () => {
         <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.1 }}  className="box virtual-museum">
           <div className="text-box">
             <h4>UI/UX CASE STUDY: VIRTUAL MUSEUM</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, maxime voluptatem aut accusamus a deserunt nobis. Explicabo expedita reprehenderit beatae inventore non, doloremque quasi ea iure facilis vitae voluptas quis?</p>
+            <p>As a part of my Google UX Design Certificate, I worked on designing a centralised virtual tour application for art museums. Virtual Museum is an application that allows users to take virtual tours of museums quickly and browse art museums near them! This application concept took around 3 months to complete</p>
+            <h6>Skills learned: Figma, Wireframing, UI/UX process (Usability Studies, Insight gathering)</h6>
           </div>
           <div className="arrow-wrapper">
             <svg className="arrow" style={{ transform: "rotate(225deg)", margin: "0px 40px"}} xmlns="http://www.w3.org/2000/svg" width="35" height="43" viewBox="0 0 35 43" fill="none">
@@ -31,7 +32,8 @@ const Work = () => {
         <motion.div iinitial={{ scale: 1 }} whileHover={{ scale: 1.1 }}  className="box animeforum">
           <div className="text-box">
             <h4>ANIMEFORUM!: AN ANIME SOCIAL MEDIA APPLICATION</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, maxime voluptatem aut accusamus a deserunt nobis. Explicabo expedita reprehenderit beatae inventore non, doloremque quasi ea iure facilis vitae voluptas quis?</p>
+            <p>I am currently working on a personal project. AnimeForum! is a social media website that is centered for anime/manga enthusiasts. I am working on both the developing of the application through ReactJS and also designing its UI using Figma</p>
+            <h6>Skills learned: ReactJS, Hooks (useContext, useEffect, etc.), Database design, RESTful API design, Adobe Illustrator, Figma</h6>
           </div>
           <div className="arrow-wrapper">
             <svg className="arrow" style={{ transform: "rotate(225deg)", margin: "0px 40px"}} xmlns="http://www.w3.org/2000/svg" width="35" height="43" viewBox="0 0 35 43" fill="none">
@@ -44,7 +46,9 @@ const Work = () => {
         <motion.div iinitial={{ scale: 1 }} whileHover={{ scale: 1.1 }}  className="box DPS">
           <div className="text-box">
             <h4>DELAWARE POTTERY STUDIOS: BRAND IDENTITY</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, maxime voluptatem aut accusamus a deserunt nobis. Explicabo expedita reprehenderit beatae inventore non, doloremque quasi ea iure facilis vitae voluptas quis?</p>
+            <p>I collaborated with a team of four members in a 10-week project to conceptualize and craft an engaging visual identity for a local pottery studio. Skills learned: Adobe Illustrator, Adobe Photoshop, Interviewing Client, Designing creative strategy</p>
+            <h6>Skills learned: Adobe Illustrator, Adobe Photoshop, Adobe InDesign, Brand Designing, Creative Strategy, 
+              Interviewing Clients, Team Collaboration, </h6>
           </div>
           <div className="arrow-wrapper">
             <svg className="arrow" style={{ transform: "rotate(225deg)", margin: "0px 40px"}} xmlns="http://www.w3.org/2000/svg" width="35" height="43" viewBox="0 0 35 43" fill="none">
@@ -57,7 +61,8 @@ const Work = () => {
         <motion.div iinitial={{ scale: 1 }} whileHover={{ scale: 1.1 }}  className="box trafficModeling">
           <div className="text-box">
             <h4>TRAFFIC MODELING: A COMPUTATIONAL MODEL FOR TRAFFIC JAMS</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, maxime voluptatem aut accusamus a deserunt nobis. Explicabo expedita reprehenderit beatae inventore non, doloremque quasi ea iure facilis vitae voluptas quis?</p>
+            <p>I collaborated with my Mathematics professor as a Research Assistant, accurately recreating unexpected traffic disruptions, lane-merging, and lane-changing behavior of cars using an object-oriented programming structure in Python</p>
+            <h6>Skills learned: Python, Libraries (SymPy, NumPy, Matplotlib), Differential equations, Collaboration, Research</h6>
           </div>
           <div className="arrow-wrapper">
             <svg className="arrow" style={{ transform: "rotate(225deg)", margin: "0px 40px"}} xmlns="http://www.w3.org/2000/svg" width="35" height="43" viewBox="0 0 35 43" fill="none">
@@ -66,7 +71,7 @@ const Work = () => {
           </div>
         </motion.div>
       </Link>
-      <Link target="_blank" to={"https://dribbble.com/shots/23344270-VIRTUAL-MUSEUM-AN-ART-MUSEUM-VIRTUAL-TOUR-APPLICATION"}>
+      {/* <Link target="_blank" to={"https://dribbble.com/shots/23344270-VIRTUAL-MUSEUM-AN-ART-MUSEUM-VIRTUAL-TOUR-APPLICATION"}>
         <motion.div iinitial={{ scale: 1 }} whileHover={{ scale: 1.1 }}  className="box">
           <div className="text-box">
             <h4>NOTEIFY: A NOTE-TAKING APPLICATION</h4>
@@ -78,7 +83,7 @@ const Work = () => {
             </svg>
           </div>
         </motion.div>
-      </Link>
+      </Link> */}
     </div>
     </>
   )

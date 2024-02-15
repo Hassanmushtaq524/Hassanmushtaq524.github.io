@@ -5,6 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+var cursor = document.getElementById("cursor");
+document.body.addEventListener("mousemove", function(e) {
+  cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
+});
+
 root.render(
   <React.StrictMode>
     <Router>
@@ -14,6 +21,8 @@ root.render(
     </Router>
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
